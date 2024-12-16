@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.teste{
+    background-color: black;
+    position: relative;
+}
+
+.topo h1{
+    color:red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.topo p{
+    color: #fff;
+}
+
+.secao-limitada {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+.topo-links{
+    position:absolute;
+    font-weight: bold;
+    color: red;
+    top: 45px;
+    right: 150px;
+    margin: 5px 10px;
+}
+
+.topo-links a{
+    color: red;
+    margin: 0 10px;
+}
+
+.topo p{
+    font-size: 18px;
+
+}
+
+.teste img{
+    width: 80px;
+    position: absolute;
+    top: 17px;
+    left: 60px;
+}
+
+.secao-banner{
+    background-color: red;
+    position: relative;
+    padding: 180px 0;
+}
+
+.secao-banner h2{
+    color: #fff;
+    font-size: 32px;
+    width: 470px;
+    margin-left: 70px;
+    
+}
+
+.secao-banner p{
+    color: #fff;
+    font-size: 22px;
+    width: 470px;
+    margin-top: 5px;
+    margin-left: 70px;
+}
+
+.secao-banner img{
+    position: absolute;
+    width: 45%;
+    top: 45px;
+    right: 150px;
+}
+
+
+.secao-informacoes h2{
+    width: 900px;
+    font-size: 32px;
+    margin: 25px auto;
+    margin-bottom: 10px;
+}
+.container-informacoes{
+    position: relative;
+    height: 240px;
+    margin-bottom: 30px;
+}
+
+.container-informacoes div{
+    
+    width: 33%;
+    position:absolute;
+    text-align: center;
+    top: 0;
+}
+
+.secao-informacoes span{
+    color: blueviolet;
+}
+
+.container-informacoes img{
+    width: 190px;
+    margin-top: 20px;
+    
+}
+
+.container-informacoes p{
+    margin-bottom: 20px;
+}
+
+.card2{
+    left: 343px;
+}
+
+.card3{
+    right: 0px;
+}
+.container-planos h2{
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+.container-planos span{
+    color: blueviolet
+}
+.container-planos h3{
+    font-size: 18px;
+}
+.container-planos p{
+    font-size: small 13px;
+    color: #a89f9f;
+}
+
+
+*/ CSS DA TABELA DE PLANOS */
+
+.linha-impar{
+    font-size: 18px;
+    background-color: #f6f6f6;
+}
+
+.linha-par{
+    font-size: 18px;
+    background-color: #f1f3f7;
+}
+
+table{
+    padding: 100px 0;
+    text-align: center;
+    box-shadow: 1px 1px 30px #2f86d6;
+    margin-top: 25px;
+}
+
+table img{
+    width: 110px;
+}
+
+table p{
+    margin: 5px;
+}
+
+table td{
+    border: 10px;
+    margin-bottom: 10px;
+}
+
+/* CSS DA SEÇÃO DOS ANUNCIOS */
+
+.container-anuncio1{
+    padding: 40px 0;
+}
+.primeiro-anuncio{
+    background-color: black;
+    position: relative;
+}
+.primeiro-anuncio h2{
+    width: 600px;
+    font-size: 24px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    
+   
+}
+.primeiro-anuncio p{
+    color: #fff;
+    position: absolute;
+    left: 210px;
+}
+.primeiro-anuncio a{
+    background:red;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 35px;
+    right: 170px;
+    color: #fff;
+}
+
+.segundo-anuncio{
+    background-color: black;
+    position: relative;
+}
+.segundo-anuncio h2{
+    width: 600px;
+    font-size: 24px;
+    color: #fff;
+}
+
+.segundo-anuncio a{
+    background:red;
+    border-radius: 10px;
+    padding: 20px;
+    position: absolute;
+    top: 35px;
+    right: 170px;
+    color: #fff;
+}
+
+/*CSS do rodapé e da seção contatos*/
+
+.rodape{
+    padding: 100px 0;
+}
+
+.logo-rodape{
+    width: 320px;
+    position: relative;
+    left: 600px;
+    margin-top: 0;
+}
+.logo-rodape img{
+    width: 80px;
+    position: absolute;
+    left: -85px
+}
+.logo-rodape h1{
+    font-size: 32px;
+}
+
+.logo-rodape p{
+    color: #2f86d6;
+}
+.rodape-contato{
+    margin: 10px auto;
+    position: relative;
+    top: -50px;
+  
+}
+.rodape-contato p{
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 600;
+    
+}
+
+.container-desenvolvedor{
+    text-align: center;
+    font-size: 16px;
+    background-color: black;
+    padding: 20px 0;
+}
+.container-desenvolvedor p{
+    color: #fff;
+    font-weight: bold;
+}
+.container-desenvolvedor span{
+    font-size: 16px;
+    color: blueviolet;
+}
